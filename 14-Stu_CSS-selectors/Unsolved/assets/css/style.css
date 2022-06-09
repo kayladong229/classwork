@@ -1,9 +1,11 @@
 /* TODO: Label selector type */
+/* Universal selector; applies to all lines of code */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
 /* TODO: Label selector type */
+/* Type selector; only applies to all code in the specified element (in this case, the body) */
 body {
   background-color: lemonchiffon;
 }
@@ -23,11 +25,13 @@ figure {
 }
 
 /* TODO: Label selector type */
+/* Class selector; applies to all code under the element with the class of "highlighted text" */
 .highlighted-text {
   font-weight: bolder;
 }
 
 /* TODO: Label selector type */
+/* Id selector; applies to all code under the element with the id "contact-selection" */
 #contact-section {
   background-color: #f0ead6;
 }
